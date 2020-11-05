@@ -1,0 +1,19 @@
+.startBtn {
+    width: 296px;
+    height: 64px;
+    border-radius: 12px;
+    background-color: #FF8B37;
+    outline: none;
+    border: none;
+    transition: all 0.2s;
+}
+.textBtn {
+    font-weight: bold;
+    color: white;
+}
+.startBtn:hover {
+    background-color: #FFAC70;
+}
+.startBtn:active {
+    background-color: #E87928;
+}

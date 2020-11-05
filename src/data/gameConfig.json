@@ -1,0 +1,58 @@
+{
+  "data":
+  [
+    {
+      "id": 1,
+      "question": {
+        "title": "how color have sun?",
+        "true": "white",
+        "false": [
+          "orange",
+          "yellow",
+          "lightblue"
+        ]
+      },
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "question": {
+        "title": "how color have sun?",
+        "true": "white",
+        "false": [
+          "orange",
+          "yellow",
+          "lightblue"
+        ]
+      },
+      "price": 1000
+    },
+    {
+      "id": 3,
+      "question": {
+        "title": "how color have sun?",
+        "true": "white",
+        "false": [
+          "orange",
+          "yellow",
+          "lightblue"
+        ]
+      },
+      "price": 1000
+    },
+    {
+      "id": 4,
+      "question": {
+        "title": "how color have sun?",
+        "true": "white",
+        "false": [
+          "orange",
+          "yellow",
+          "lightblue"
+        ]
+      },
+      "price": 1000
+    }
+  ]
+}
+

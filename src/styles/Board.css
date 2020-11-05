@@ -1,0 +1,23 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.question {
+    width: 69.5vw;
+    height: 60vh;
+    border: 1px solid red;
+}
+.answers {
+    width: 69.5vw;
+    height: 40vh;
+    border: 1px solid red;
+}
+.menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width:29vw;
+    height: 100vh;
+    border: 1px solid red;
+}
