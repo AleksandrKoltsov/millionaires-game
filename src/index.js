@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import {Provider} from 'react-redux';
-import {compose, createStore} from "redux";
-import './index.css';
 import App from './App';
-import {rootReducer} from "./redux/rootReducer";
+import {Provider} from 'react-redux';
+import store from "./redux/store";
+import './index.css';
 
-const store = createStore(rootReducer, compose(
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-));
+
 const app = (
     <Provider store={store}>
         <App />

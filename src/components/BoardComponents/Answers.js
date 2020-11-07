@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Answers = (props) => {
+    console.log(props);
     return (
         <div>
-            <h1>Answer buttons</h1>
+           <h1>HER VAM!!!!</h1>
         </div>
     )
 };

@@ -1,8 +1,13 @@
-import {GET_DATA} from "./types";
+import {GET_DATA, SET_QUESTIONS} from "./types";
 
-const  getData = (type, data) => ({
+export const  getData = (data) => ({
     type: GET_DATA,
     data: data
 });
 
-export default getData()
+export const setQuestions = (data) => {
+
+    return {
+      type: SET_QUESTIONS,
+      payload: data
+}};
