@@ -8,13 +8,13 @@ import Error from "./components/Error";
 export const useRoutes = () => {
     return (
         <Switch>
-            <Route path='/' exact>
+            <Route path='/' exact component={MainPage}>
                 <MainPage />
             </Route>
-            <Route path="/Board">
+            <Route path="/Board" component={Board}>
                 <Board />
             </Route>
-            <Route path="/GameOver">
+            <Route path="/GameOver" component={GameOver}>
                 <GameOver />
             </Route>
             <Route path="*">

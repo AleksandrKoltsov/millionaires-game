@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Menu = () => {
+const Menu = (props) => {
     return (
         <div>
-            <h1>Price menu</h1>
+            <h1>{props.data}</h1>
         </div>
     )
 };

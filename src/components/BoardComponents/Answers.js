@@ -1,10 +1,14 @@
 import React from 'react';
 
 const Answers = (props) => {
-    console.log(props);
     return (
         <div>
-           <h1>HER VAM!!!!</h1>
+            {props.data.map((el, i) =>
+             <button
+                key={i}
+                onClick={()=>props.callback(el)}
+             >{el}</button>
+            )}
         </div>
     )
 };

@@ -1,25 +1,20 @@
-import {GET_DATA, SET_QUESTIONS} from "./types";
+import {INCREMENT_ITERATOR, SET_QUESTIONS} from "./types";
 import Data from '../data/gameConfig'
 
 const initialState = {
     data: Data,
     questions: [],
-    iterator: 0,
-    startGame: false
+    iterator: 0
 };
 
 export const dataReducer = (state = initialState, action) => {
     switch (action.type) {
-        case GET_DATA:
-            return {...state, data: action.payload};
-            // return [...state.startGame, payload];
         case SET_QUESTIONS:
-            return {
-                ...state,
+            return Object.assign({},state, {
                 questions: action.payload,
-                startGame: true
-            };
-            // return [...state.questionArr, payload];
-        default: return state
+            });
+        case INCREMENT_ITERATOR:
+            return {...state, iterator: action.payload};
+        default: return state;
     }
 };

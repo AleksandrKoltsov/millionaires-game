@@ -4,8 +4,7 @@ import '../styles/MainPage.css';
 import {setQuestions} from "../redux/actions";
 import {connect} from "react-redux";
 
-const MainPage = ({data}) => {
-    // console.log(data);
+const MainPage = ({data, setQuestions}) => {
     return (
         <div>
             <h1>Main Page</h1>
@@ -31,11 +30,13 @@ const mapStateToProps = state => {
     };
     const questionArr = [];
     arr.map(el => questionArr.push(filtered(data, el)));
-    // console.log(questionArr);
 
     return {
         data: questionArr
     };
 };
+const mapDispatchToProps = {
+    setQuestions
+};
 
-export default connect(mapStateToProps)(MainPage);
+export default connect(mapStateToProps, mapDispatchToProps)(MainPage);

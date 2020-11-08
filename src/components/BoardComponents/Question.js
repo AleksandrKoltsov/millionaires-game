@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Question = () => {
+const Question = (props) => {
+    // console.log(props);
     return (
         <div>
-            <h1>Question here</h1>
+            <h1>{props.data}</h1>
         </div>
     )
 };
