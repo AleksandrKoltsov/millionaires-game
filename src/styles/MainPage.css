@@ -1,3 +1,41 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(155.1deg, rgba(255,255,255,1) 50%, rgba(255,243,235,1) 50%) no-repeat;
+    overflow: hidden;
+}
+
+.mainText {
+    position: static;
+    width: 624px;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+
+    /* Desktop / Headline */
+
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 116%;
+    /* or 65px */
+
+    display: flex;
+    align-items: center;
+
+    /* Black-100 */
+
+    color: #1C1C21;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 64px;
+}
 .startBtn {
     width: 296px;
     height: 64px;
