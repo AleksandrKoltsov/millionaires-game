@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/millionaries-game/static/css/main.90f429a3.chunk.css",
+    "main.js": "/millionaries-game/static/js/main.2ec24215.chunk.js",
+    "main.js.map": "/millionaries-game/static/js/main.2ec24215.chunk.js.map",
+    "runtime-main.js": "/millionaries-game/static/js/runtime-main.be73cfff.js",
+    "runtime-main.js.map": "/millionaries-game/static/js/runtime-main.be73cfff.js.map",
+    "static/js/2.97081bc7.chunk.js": "/millionaries-game/static/js/2.97081bc7.chunk.js",
+    "static/js/2.97081bc7.chunk.js.map": "/millionaries-game/static/js/2.97081bc7.chunk.js.map",
+    "static/js/3.e4a9a09f.chunk.js": "/millionaries-game/static/js/3.e4a9a09f.chunk.js",
+    "static/js/3.e4a9a09f.chunk.js.map": "/millionaries-game/static/js/3.e4a9a09f.chunk.js.map",
+    "index.html": "/millionaries-game/index.html",
+    "static/css/main.90f429a3.chunk.css.map": "/millionaries-game/static/css/main.90f429a3.chunk.css.map",
+    "static/js/2.97081bc7.chunk.js.LICENSE.txt": "/millionaries-game/static/js/2.97081bc7.chunk.js.LICENSE.txt",
+    "static/media/Menu.css": "/millionaries-game/static/media/nextElement.cccee0e5.svg",
+    "static/media/Answers.css": "/millionaries-game/static/media/btnTrue.a5b9c731.svg",
+    "static/media/MainPage.css": "/millionaries-game/static/media/hand.97255040.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be73cfff.js",
+    "static/js/2.97081bc7.chunk.js",
+    "static/css/main.90f429a3.chunk.css",
+    "static/js/main.2ec24215.chunk.js"
+  ]
+}
