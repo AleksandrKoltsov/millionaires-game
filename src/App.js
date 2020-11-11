@@ -5,7 +5,7 @@ import { useRoutes } from './routes';
 function App() {
     const routes = useRoutes();
     return (
-        <Router>
+        <Router basename="/millionaries-game-gh-pages">
             <Fragment>
                 {routes}
             </Fragment>
