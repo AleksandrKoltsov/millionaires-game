@@ -1,10 +1,20 @@
 body {
     width: 100vw;
-    height: 100vh;
+    /*height: 100%;*/
     background: linear-gradient(155.1deg, rgba(255,255,255,1) 50%, rgba(255,243,235,1) 50%) no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
 }
-
+.main {
+    margin-top: 5rem;
+}
+.img {
+    background-image: url("../assets/main/hand.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 400px;
+    height: 400px;
+}
 .mainText {
     position: static;
     width: 624px;
@@ -34,7 +44,7 @@ body {
     order: 0;
     align-self: center;
     flex-grow: 0;
-    margin: 0px 64px;
+    margin: 2rem 0;
 }
 .startBtn {
     width: 296px;

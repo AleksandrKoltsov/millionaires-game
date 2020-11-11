@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import {connect} from "react-redux";
 import {gameOver, getConfig, result, setIncrement, setQuestions} from "../redux/actions";
+import Grid from "@material-ui/core/Grid";
 import Config from '../data/gameConfig';
 import '../styles/MainPage.css';
 
@@ -15,23 +16,36 @@ const MainPage = ({
               setIncrement
 }) => {
     return (
-        <div>
-            <span className='mainText'>Who wants to be a millionaire?</span>
-            <Link to='/Board'>
-                <button
-                    className='startBtn'
-                    onClick={()=>{
-                        result(0);
-                        setIncrement(0);
-                        gameOver(false);
-                        getConfig(Config);
-                        setQuestions(data);
-                    }}
-                >
-                    <p className='textBtn'>START</p>
-                </button>
-            </Link>
-        </div>
+        <Grid
+            container
+            direction="row"
+            justify="center"
+            alignItems="center"
+            className="main"
+        >
+            <div xs={12} md={6} className="img">
+                {/*<img src="../assets/main/hand.svg" alt="finger up" className='img'/>*/}
+            </div>
+            <div xs={12} md={6}>
+                <span className='mainText'>Who wants to be a millionaire?</span>
+                <div xs={12}>
+                    <Link to='/Board'>
+                        <button
+                            className='startBtn'
+                            onClick={()=>{
+                                result(null);
+                                setIncrement(0);
+                                gameOver(false);
+                                getConfig(Config);
+                                setQuestions(data);
+                            }}
+                        >
+                            <p className='textBtn'>START</p>
+                        </button>
+                    </Link>
+                </div>
+            </div>
+        </Grid>
     )
 };
 

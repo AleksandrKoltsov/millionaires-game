@@ -8,7 +8,7 @@ import GameOver from "./GameOver";
 import '../styles/Board.css';
 
 const Board = ({
-   answers,
+   arrAnswers,
    i,
    setIncrement,
    end,
@@ -17,22 +17,23 @@ const Board = ({
    price
 }) => {
     //if array is't empty else return Error page
-    if (answers.length > 0) {
-        const answ = {
-            question: answers[i].question.title,
-            true: answers[i].question.true,
-            false: answers[i].question.false,
-            price: answers[i].price,
-            len: answers.length
+    if (arrAnswers.length > 0) {
+        const item = {
+            question: arrAnswers[i].question.title,
+            answ: arrAnswers[i].question.answers,
+            price: arrAnswers[i].price,
+            len: arrAnswers.length,
+            true: arrAnswers[i].question.answers.filter(el => el.true)[0].true
         };
+        const renderPrice = [];
         //getting answer in callback
         const handleClickAnswer = (response) => {
-            if(response === answ.true) {
+            if(response === item.true) {
                 setIncrement(++i);
-                result(answ.price);
+                result(item.price);
 
-                if(i === answ.len) {
-                    result(answ.price);
+                if(i === item.len) {
+                    result(item.price);
                     setIncrement(i = 0);
                     gameOver(true);
                 }
@@ -41,8 +42,8 @@ const Board = ({
                 gameOver(true);
             }
         };
+
         //create array with answers for question and transfer on props component
-        const arrAnswers = [answ.true, ...answ.false];
         if(end) {
             return (
                 <GameOver price={price}/>
@@ -52,18 +53,19 @@ const Board = ({
                 <div className='board'>
                     <div className='question'>
                         <Question
-                            data={answ.question}
+                            data={item.question}
                         />
                     </div>
                     <div className='answers'>
                         <Answers
-                            data={arrAnswers}
+                            data={item.answ}
                             callback={handleClickAnswer}
                         />
                     </div>
                     <div className='menu'>
                         <Menu
-                            data={price}
+                            data={arrAnswers}
+                            price={price}
                         />
                     </div>
                 </div>
@@ -74,7 +76,7 @@ const Board = ({
 };
 const mapStateToProps = state => {
     return {
-        answers: state.data.questions,
+        arrAnswers: state.data.questions,
         i: state.data.iterator,
         end: state.data.gameOver,
         price: state.data.result

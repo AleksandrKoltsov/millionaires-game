@@ -5,11 +5,11 @@
     "id": 1,
     "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-        "orange",
-        "yellow",
-        "lightblue"
+      "answers": [
+        {"id": 0, "true": "white"},
+        {"id": 1, "false": "orange"},
+        {"id": 2, "false": "yellow"},
+        {"id": 3, "false": "light-blue"}
       ]
     },
     "price": 500
@@ -18,11 +18,11 @@
       "id": 2,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 1000
@@ -31,11 +31,11 @@
       "id": 3,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 2000
@@ -44,11 +44,11 @@
       "id": 4,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 4000
@@ -57,11 +57,11 @@
       "id": 5,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 8000
@@ -70,11 +70,11 @@
       "id": 6,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 16000
@@ -83,11 +83,11 @@
       "id": 7,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 32000
@@ -96,11 +96,11 @@
       "id": 8,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 64000
@@ -109,11 +109,11 @@
       "id": 9,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 125000
@@ -122,11 +122,11 @@
       "id": 10,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 250000
@@ -135,11 +135,11 @@
       "id": 11,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 500000
@@ -148,11 +148,11 @@
       "id": 12,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
         ]
       },
       "price": 1000000
@@ -161,12 +161,12 @@
       "id": 13,
       "question": {
         "title": "how color have sun?",
-        "true": "white",
-        "false": [
-          "orange",
-          "yellow",
-          "lightblue"
-          ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
         },
       "price": 500
       },
@@ -174,12 +174,12 @@
       "id": 14,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 1000
       },
@@ -187,12 +187,12 @@
       "id": 15,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 2000
       },
@@ -200,12 +200,12 @@
       "id": 16,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 4000
       },
@@ -213,12 +213,12 @@
       "id": 17,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 8000
       },
@@ -226,12 +226,12 @@
       "id": 18,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 16000
       },
@@ -239,12 +239,12 @@
       "id": 19,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 32000
       },
@@ -252,12 +252,12 @@
       "id": 20,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 64000
       },
@@ -265,12 +265,12 @@
       "id": 21,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 125000
       },
@@ -278,12 +278,12 @@
       "id": 22,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 250000
       },
@@ -291,12 +291,12 @@
       "id": 23,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 500000
       },
@@ -304,12 +304,12 @@
       "id": 24,
       "question": {
       "title": "how color have sun?",
-      "true": "white",
-      "false": [
-      "orange",
-      "yellow",
-      "lightblue"
-      ]
+        "answers": [
+          {"id": 0, "true": "white"},
+          {"id": 1, "false": "orange"},
+          {"id": 2, "false": "yellow"},
+          {"id": 3, "false": "light-blue"}
+        ]
       },
       "price": 1000000
     }

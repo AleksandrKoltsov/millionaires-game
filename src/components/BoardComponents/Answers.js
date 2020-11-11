@@ -1,14 +1,28 @@
 import React from 'react';
+import '../../styles/Answers.css';
 
 const Answers = (props) => {
     return (
         <div>
-            {props.data.map((el, i) =>
-             <button
-                key={i}
-                onClick={()=>props.callback(el)}
-             >{el}</button>
-            )}
+            {props.data.map((el) => {
+                if(el.true) {
+                    return(
+                         <div
+                            className="button1"
+                            key={el.id}
+                            onClick={()=>props.callback(el.true)}
+                         >{el.true}</div>
+                    )
+                } else {
+                    return(
+                        <div
+                            className="button1"
+                            key={el.id}
+                            onClick={()=>props.callback(el.false)}
+                        >{el.false}</div>
+                    )
+                }
+            })}
         </div>
     )
 };
